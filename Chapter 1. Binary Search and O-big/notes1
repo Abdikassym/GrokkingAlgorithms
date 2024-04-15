@@ -1,0 +1,16 @@
+1. Amount of Iterations. Amount of steps done is calculated in LogX. Where X - is the overall amount of numbers or objects.
+So if there are 8 elements, then the amount of iterations is Log8 = 3. Основание логарифма всегда 2.
+Example: Log128 = 7, which means that
+
+"If there will be 128 elements and I will have to find the exact element, then I need to guess only 7 elements in order
+to find the necessary number"
+
+2. Execution Time Время выполнения. If the amount of attempts == amount of elements in list. Then this execution time is named
+Linear Time. Если макс число попыток совпадает с размером списка, то такое время выполнения называется линейным
+
+3. В Бинарном поиске рабоатет логарифмическое время. То есть 128 элементов = 7 попыток.
+
+4. О большое/ O big / O(n) - описывает скорость работы алгоритма.
+
+* Скорость операции измеряется не в секундах, а в темпе роста количества операции
+* Формула описывает насколько быстро возврастает время выполнения алгоритма с увеличением размера входных данных
